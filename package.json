@@ -1,0 +1,10 @@
+{
+  "name": "loop",
+  "version": "1.0.0",
+  "description": "A wardrobe app that scores clothes on environmental impact and answers whether a purchase is worth making. Single self-contained HTML file, no network calls.",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "test": "node tests/smoke.js && node tests/audit.js && node tests/site.js"
+  }
+}
